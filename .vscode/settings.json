@@ -1,0 +1,6 @@
+{
+    // Tombol "Run Code" (Code Runner) untuk file Java: compile semua file project, bukan hanya file yang dibuka.
+    "code-runner.executorMap": {
+        "java": "cd \"$workspaceRoot\" && powershell -NoProfile -ExecutionPolicy Bypass -File .vscode\\run-kasir.ps1"
+    }
+}
